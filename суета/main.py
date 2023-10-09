@@ -250,7 +250,7 @@ if __name__ == "__main__":
     db = DB()
     app = Main(root)
     app.pack()
-    root.title("Телефонная книга")
+    root.title("Список сотрудников компании")
     root.geometry("800x600")
     root.resizable(False, False)
     root.mainloop()
